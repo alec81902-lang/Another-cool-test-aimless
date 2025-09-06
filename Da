@@ -208,13 +208,7 @@ end
                 },
                 Radius = 80
             },
-            Visuals = {
-                Enabled = true,
-                Tracer = {
-                    Enabled = false,
-                    Color = Color3.new(1, 1, 1),
-                    Thickness = 2
-                },
+            
                 Dot = {
                     Enabled = false,
                     Color = Color3.new(1, 1, 1),
@@ -245,14 +239,7 @@ end
                 }
             }
         },
-        Visuals = {
-            Backtrack = {
-                Enabled = true,
-                Color = Color3.fromRGB(255,255,255),
-                Method = "Folllow",
-                Transparency = 0.5,
-                Material = "Plastic",
-            },
+        
             BulletTracers = {
                 Enabled = false,
                 Color = {
